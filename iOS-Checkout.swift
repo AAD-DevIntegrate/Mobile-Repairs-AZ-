@@ -3,5 +3,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/paypal/paypalcheckout-ios.git", from: "0.42.0"),
     ],
-    ...
+[
+    .package(url: "", from: ""),
+    ],
 )
